@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/style.min.css">
+		<link rel="stylesheet" href="css/adaptive.min.css">
 		<title>Аренда домов</title>
 	</head>
 	<body>
@@ -36,10 +37,6 @@
 									<img class="kart-img1" src="img/hit.png">
 									<p class="pp">Хиты продаж</p>									
 								</div>
-								<!-- <div class="kart-verh" id="v2">
-									<img class="kart-img1" src="img/banya.png">
-									<p class="pp">С баней </p>
-								</div> -->
 								<div class="kart-verh" id="v3">
 									<img class="kart-img1" src="img/sem yut.png">
 									<p class="pp">Семейные и уютные</p>
@@ -67,7 +64,7 @@
 							</div>
 							<div class="input">
 								<p class="p8">Количество человек</p>
-								<input type="text" id="input1" placeholder="12">
+								<input type="text" id="input1" class="yy" placeholder="12">
 							</div>
 						</div>
 						<div class="lala">
@@ -354,7 +351,70 @@
 				</div>
 
 				<div class="butt">
-					<button class="but">Перейти в каталог</button>
+					<button class="but" id="modalo-btn">Перейти в каталог</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="modal-cat" class="modal-cat">
+			<div class="modalo__content">
+				<span class="modal-closoo">&times;</span>
+				<div class="bl-modal">
+					<!-- КАКАЯ-ТО ФИЛЬТРАЦИЯ -->
+
+					<div class="info">
+						<div class="info-title">NFT all Category</div>
+						<div class="info-tabcontent fade">
+							<div class="tab-flexbox">
+								<div class="card-tab">
+									<div class="photo">
+										<img src="img/art_1.png" alt="Massage" />
+									</div>
+									<div class="description">
+										<div class="description-title">Minimalist Room</div>
+										<div class="description-text">
+											Online learning with us does not interfere with your daily
+											life. because learning can be done anytime and anywhere. Lorem
+											ipsum dolor sit amet consectetur adipisicing elit. Odit, ad.
+										</div>
+									</div>
+									<button id="myBtn" class="description-btn">See More</button>
+								</div>
+								<div class="card-tab">
+									<div class="photo">
+										<img src="img/art_2.png" alt="Massage" />
+									</div>
+									<div class="description">
+										<div class="description-title">Vintage Room</div>
+										<div class="description-text">
+											Online learning with us does not interfere with your daily
+											life. because learning can be done anytime and anywhere.
+										</div>
+									</div>
+									<button id="myBtn" class="description-btn">See More</button>
+								</div>
+								<div class="card-tab">
+									<div class="photo">
+										<img src="img/art_3.png" alt="Massage" />
+									</div>
+									<div class="description">
+										<div class="description-title">Vintage Room</div>
+										<div class="description-text">
+											Online learning with us does not interfere with your daily
+											life. because learning can be done anytime and anywhere. Lorem
+											ipsum dolor sit amet consectetur adipisicing elit. Minima nam
+											architecto fuga a sequi nulla omnis inventore, ut nostrum
+											facilis.
+										</div>
+									</div>
+									<button id="myBtn" class="description-btn">See More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
 				</div>
 			</div>
 		</div>
@@ -492,7 +552,20 @@
 						</div>
 					</div>
 					<div class="lala">
-						<button class="but">Оставить заявку</button>
+						<button class="but" id="modall-btn">Оставить заявку</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="modal-next" class="modal-next">
+			<div class="modal__content">
+				<span class="modal-closee">&times;</span>
+				<div class="bl-modal">
+					<p class="p6">Ваша заявка отправлена!</p>
+					<p class="p7">В течение 15 минут специалист свяжется с вами</p>
+					<div class="lala">
+						<button class="but" id="closeee">Закрыть</button>
 					</div>
 				</div>
 			</div>
