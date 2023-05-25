@@ -445,16 +445,76 @@
 }
 
 .modalo__content {
-  width: 90%;
-  max-width: 800px;
+  width: 80%;
   margin: 100px auto;
-  padding: 25px;
+  padding: 50px 50px 10px 50px;
   background-color: #fff;
   border-radius: 15px;
   /* Для анимации */
   position: relative;
   animation-name: animatetop;
   animation-duration: 0.4s;
+}
+
+.info {
+  padding: 10px 0;
+}
+
+.info-title {
+  text-align: center;
+}
+
+.info-header {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.info-header-tab {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #000000;
+  margin-bottom: 2%;
+  margin-top: 3%;
+  text-align: center;
+  margin-right: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.info-header-tab:nth-last-child {
+  margin: 0;
+}
+
+.info-tabcontent {
+  padding: 25px;
+  margin: 25px auto;
+  width: 90%;
+  background: #ffffff;
+  border: 0.5px solid #e3e3e3;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.info .hide {
+  display: none;
+}
+
+.info .show {
+  display: block;
+}
+
+.active {
+  background-color: #F4683F;
+}
+
+.tab-flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 .FAQ {
@@ -652,5 +712,10 @@
     font-size: 54px;
     line-height: 130%;
     color: #FFFFFF;
+  }
+}
+@media (max-width: 600px) {
+  .with-icon {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
