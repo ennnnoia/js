@@ -205,10 +205,10 @@ if (target && target.classList.contains("info-header-tab")) {
             hideTabContect(0);
             // удаляем класс активности таба
             tab.forEach((item) => {
-                item.classList.remove("active");
+                item.classList.remove("activee");
             });
             //элементу target(на который кликнули) добавляем активный класс
-            target.classList.add("active");
+            target.classList.add("activee");
 
             //Совпадение по нумерации
             ShowTabContect(i);

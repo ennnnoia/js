@@ -64,6 +64,7 @@
   line-height: 160%;
   color: #FFFFFF;
   margin-bottom: 10%;
+  width: 80%;
 }
 
 .h77 {
@@ -112,6 +113,7 @@
   font-size: 16px;
   line-height: 160%;
   color: #333333;
+  margin-top: 5%;
 }
 
 .p2 {
@@ -337,10 +339,18 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 96%;
+}
+
+.kart-fl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 49%;
 }
 
 .kart-about {
-  width: 19%;
+  width: 45%;
 }
 
 .catalog {
@@ -350,7 +360,7 @@
 .slaider2 {
   display: flex;
   flex-direction: row;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
 }
 
 .left-arrow {
@@ -360,6 +370,14 @@
 
 .right-arrow {
   display: flex;
+}
+
+.right-arroww {
+  width: 75%;
+}
+
+.left-arroww {
+  width: 75%;
 }
 
 .butt {
@@ -507,7 +525,7 @@
   display: block;
 }
 
-.active {
+.activee {
   background-color: #F4683F;
 }
 
@@ -574,7 +592,7 @@
   flex-direction: column;
   padding-left: 17%;
   margin-top: 10%;
-  width: 25%;
+  width: 30%;
 }
 
 /* Модальное окно */
@@ -659,6 +677,11 @@
   width: 90%;
 }
 
+#otpr {
+  width: 90%;
+  margin-top: 4%;
+}
+
 .footer {
   background-color: #161723;
   padding: 4% 8%;
@@ -704,7 +727,7 @@
   align-items: center;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .h11 {
     font-family: "Raleway";
     font-style: normal;
@@ -712,6 +735,160 @@
     font-size: 54px;
     line-height: 130%;
     color: #FFFFFF;
+  }
+  .p4 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #F4683F;
+  }
+}
+@media (max-width: 1290px) {
+  .okno {
+    display: none;
+  }
+  .levo {
+    width: 70%;
+  }
+  .pravo {
+    width: 0%;
+  }
+  .bl-2 {
+    width: 50%;
+  }
+  .h22 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 150%;
+    color: #333333;
+  }
+  .kart2 {
+    width: 100%;
+  }
+  .p1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14spx;
+    line-height: 160%;
+    color: #333333;
+  }
+  .kart-fl {
+    width: 47%;
+  }
+  .p2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #727488;
+  }
+  .p4 {
+    display: none;
+  }
+  .modal__content {
+    width: 40%;
+  }
+  .txt-rent {
+    width: 35%;
+  }
+  .h55 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .h66 {
+    width: 90%;
+  }
+  .p3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 150%;
+    color: #333333;
+  }
+  .p5 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+  }
+}
+@media (max-width: 1050px) {
+  .h11 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+  }
+  .h33 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  #h99 {
+    display: none;
+    width: 0%;
+  }
+  .bl-2 {
+    width: 13%;
+  }
+  .pp {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .kart2 {
+    flex-direction: column;
+  }
+  .kart-fl {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+  .h44 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 4%;
+  }
+  .ic {
+    margin-bottom: 2%;
+  }
+  .txt-rent {
+    width: 40%;
+  }
+}
+@media (max-width: 910px) {
+  .levo {
+    width: 100%;
+  }
+  .modal__content {
+    width: 50%;
+  }
+  .txt-rent {
+    width: 50%;
   }
 }
 @media (max-width: 600px) {
