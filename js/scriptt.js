@@ -222,7 +222,12 @@ if (target && target.classList.contains("info-header-tab")) {
 
 
 //БУРГЕР-МЕНЮ
-
+const burger = document.querySelector('.burger'); 
+const menuItems = document.querySelector('.menu-items'); 
+ 
+burger.addEventListener('click', () => { 
+    menuItems.classList.toggle('showw'); 
+});
 
 
 
