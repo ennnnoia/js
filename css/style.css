@@ -197,7 +197,7 @@
   justify-content: space-between;
 }
 
-.bl1 {
+.bl-1 {
   width: 25%;
 }
 
@@ -236,18 +236,6 @@
   list-style: none;
   margin: 0;
   padding: 0;
-}
-@media (max-width: 768px) {
-  .menu-items {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 75px;
-    left: 0;
-    width: 100%;
-    background-color: hsla(236, 53%, 16%, 0.582);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  }
 }
 
 .showw {
@@ -550,7 +538,6 @@ a:hover {
 .info-header {
   display: flex;
   justify-content: center;
-  margin: 25px 0;
   flex-wrap: wrap;
 }
 
@@ -561,8 +548,8 @@ a:hover {
   font-size: 18px;
   line-height: 160%;
   color: #000000;
-  margin-bottom: 2%;
-  margin-top: 3%;
+  margin-bottom: 1%;
+  margin-top: 1%;
   text-align: center;
   margin-right: 15px;
   padding: 10px;
@@ -1014,6 +1001,9 @@ a:hover {
   }
 }
 @media (max-width: 760px) {
+  .about {
+    margin-top: 10%;
+  }
   .h11 {
     font-family: "Raleway";
     font-style: normal;
@@ -1077,6 +1067,14 @@ a:hover {
   }
 }
 @media (max-width: 630px) {
+  a {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+  }
   .slaider1 {
     display: none;
   }
@@ -1141,6 +1139,14 @@ a:hover {
   }
 }
 @media (max-width: 520px) {
+  a {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+  }
   .h11 {
     font-family: "Raleway";
     font-style: normal;
@@ -1172,6 +1178,9 @@ a:hover {
     line-height: 150%;
     color: #333333;
   }
+  .bl-modal {
+    padding: 17px 7px;
+  }
   .p6 {
     font-family: "Raleway";
     font-style: normal;
@@ -1190,6 +1199,21 @@ a:hover {
   }
 }
 @media (max-width: 490px) {
+  .info-header-tab {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #000000;
+    margin-right: 0px;
+  }
+  .logo {
+    width: 200%;
+  }
+  #logo-ni {
+    width: 100%;
+  }
   .h55 {
     font-family: "Raleway";
     font-style: normal;
@@ -1213,6 +1237,11 @@ a:hover {
     font-size: 16px;
     line-height: 150%;
     color: #FFFFFF;
+  }
+  .modalo__content {
+    width: 70%;
+    margin: 100px auto;
+    padding: 20px 20px 10px 20px;
   }
   #p33 {
     font-family: "Raleway";
@@ -1239,7 +1268,37 @@ a:hover {
     color: #000000;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 433px) {
+  a {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+  }
+  .showw {
+    width: 40%;
+  }
+  .verh {
+    padding: 40px;
+  }
+  .h11 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 130%;
+    color: #FFFFFF;
+  }
+  .h22 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 150%;
+    color: #333333;
+  }
   .h55 {
     font-family: "Raleway";
     font-style: normal;
@@ -1257,17 +1316,17 @@ a:hover {
     color: #FFFFFF;
     padding: 10px 40px;
   }
-  .bl-modal {
-    padding: 37px 27px;
-  }
   .modal__content {
     padding: 25px;
+  }
+  #input2 {
+    width: 80%;
   }
   .p6 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 130%;
     color: #333333;
   }
@@ -1277,6 +1336,69 @@ a:hover {
     font-weight: 600;
     font-size: 14px;
     line-height: 150%;
+    color: #000000;
+  }
+}
+@media (max-width: 400px) {
+  .info-tabcontent {
+    margin: 15px 0;
+  }
+  .container {
+    width: 80%;
+  }
+  #input2 {
+    width: 70%;
+  }
+  a {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+  }
+  .showw {
+    width: 45%;
+  }
+  .but {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 10px 30px;
+  }
+  .p3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+  }
+  #p33 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+  }
+  .p6 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 120%;
+    color: #333333;
+  }
+  .p7 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
     color: #000000;
   }
 }/*# sourceMappingURL=style.css.map */
